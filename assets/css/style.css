@@ -87,11 +87,12 @@ height:100%;
     margin-top: 10px;
     display:grid;
    
-    grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 0.3fr;
+    grid-template-rows: 0.3fr 1fr 1fr 0.2fr 0.2fr 0.3fr;
     grid-template-columns: 1fr 1.5fr 1.5fr;
     grid-gap: 0.5rem;
     grid-template-areas: 
     "sidebar aboutme aboutme"
+    "sidebar workmain workmain"
     "sidebar workmain workmain"
     "sidebar work1 work2"
      "sidebar work3 work4"
