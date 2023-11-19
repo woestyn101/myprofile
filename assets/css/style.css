@@ -90,11 +90,19 @@ height:100%;
     grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 0.3fr;
     grid-template-columns: 1fr 1.5fr 1.5fr;
     grid-gap: 0.5rem;
+    grid-template-areas: 
+    "sidebar aboutme aboutme"
+    "sidebar workmain workmain"
+    "sidebar work1 work2"
+     "sidebar work3 work4"
+     "sidebar footer footer";
+   
 }
 
 .side-aboutme {
     grid-row: 1 / 2;
     grid-column: 1/  2;
+    grid-template-columns: sidebar;
     
 }
 
@@ -139,6 +147,7 @@ height:100%;
    
     grid-row: 2 / 4;
     grid-column:2/ 4;
+    grid-area: workmain;
     
 }
 
@@ -146,22 +155,26 @@ height:100%;
     
     grid-row:4 / 5;
     grid-column:2/ 3;
+    grid-area: work1;
    
 }
 .project-3 {
     grid-row:4 / 5;
     grid-column:3/ 4;
+    grid-area: work2;
     
 }
 .project-4 {
     grid-row:5 / 6;
     grid-column:2/ 3;
+    grid-area: work3;
    
    
 }
 .project-5 {
     grid-row:5 / 6;
     grid-column:3/ 4;
+    grid-area: work4;
     
 }
 
@@ -174,6 +187,7 @@ height:100%;
     font-size: 1.3rem;
     color: #0182e7;
     flex-wrap: wrap;
+    grid-area: footer;
 }
   
 
@@ -193,5 +207,22 @@ height:100%;
         font-size: 1rem;
         margin-right:20px;
        
+    }
+
+    .container {
+        height:90vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr 0.3fr;
+        grid-template-areas: 
+        "sidebar aboutme"
+        "sidebar workmain"
+        "sidebar work1"
+        "sidebar work2"
+        "sidebar work3"
+        "sidebar work4"
+        "sidebar footer"
+        
+        ;
+
     }
 }
