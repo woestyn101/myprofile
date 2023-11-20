@@ -21,6 +21,8 @@ During this project I learned:
 
 ## Screenshot of website
 
+![Website Screenshot](./assets/images/website_screenshot.jpg)
+
 ## Credits (N/A)
 
 ## License
