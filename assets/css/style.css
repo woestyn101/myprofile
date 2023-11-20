@@ -127,7 +127,7 @@ height:100%;
 .side-aboutme {
     grid-row: 1 / 2;
     grid-column: 1/  2;
-    grid-template-columns: sidebar;
+   
     
 }
 
