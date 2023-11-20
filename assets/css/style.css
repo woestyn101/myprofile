@@ -3,7 +3,7 @@ img {
     height:100px;
 }
 
-
+/* Setting navbar color and flex*/
 
 nav {
     background-color:  #0082e6;
@@ -16,6 +16,7 @@ nav {
      
     
 }
+/* link hover settings*/
 a:hover img {
     border: 5px purple solid;
 }
@@ -107,6 +108,8 @@ width:100%;
 height:100%;
 }
 
+/* setting containe for main content: grid-layout*/
+
 .container {
     margin-top: 10px;
     display:grid;
@@ -130,6 +133,8 @@ height:100%;
    
     
 }
+
+/* sidebar settings*/
 
 .item-side {
     font-size: 2rem;
@@ -216,7 +221,7 @@ height:100%;
 }
   
 
-
+/* setting web responsiveness for mobile */
 
 @media screen and (max-width:815px){
     .nav-links {
