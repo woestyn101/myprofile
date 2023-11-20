@@ -213,7 +213,7 @@ height:100%;
     .container {
         height:90vh;
         grid-template-columns: 0.5fr 1fr;
-        grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr 0.3fr;
+        grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr 0.3fr ;
         grid-template-areas: 
         "sidebar aboutme"
         "sidebar workmain"
@@ -225,6 +225,18 @@ height:100%;
         
         ;
 
+    }
+
+    .side-contactme {
+        grid-row: 7/ 8;
+        grid-column: 1/ 2;
+        
+    }
+
+    .side-work {
+        grid-row: 2 / 7;
+        grid-column: 1/  2;
+        
     }
 
     .item-side {
@@ -242,6 +254,17 @@ height:100%;
         margin:3px;
     }
     
-
+    .footer-info {
+        align-items: center;
+        grid-row: 6 / 7;
+        grid-column:2/ 4;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1rem;
+        color: #0182e7;
+        flex-wrap: wrap;
+        grid-area: footer;
+    }
+      
     
 }
