@@ -1,5 +1,3 @@
-
-
 # OSU Bootcamp challenge 2
 
 ## Description
@@ -15,17 +13,13 @@ During this project I learned:
 
 ## Link to website
 
-[https://woestyn101.github.io/starter-code/](https://woestyn101.github.io/myprofile/)
+(https://woestyn101.github.io/myprofile/)
 
 ## Installation (N/A)
 
 ## Usage
 
-
-
 ## Screenshot of website
-
-
 
 ## Credits (N/A)
 
