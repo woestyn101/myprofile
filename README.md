@@ -15,7 +15,7 @@ During this project I learned:
 
 ## Link to website
 
-https://woestyn101.github.io/starter-code/
+[https://woestyn101.github.io/starter-code/](https://woestyn101.github.io/myprofile/)
 
 ## Installation (N/A)
 
